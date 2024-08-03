@@ -37,7 +37,7 @@ train_iter, test_iter = d2l.load_data_fashion_mnist(batch_size, resize=224)
 lr, num_epochs = 0.01, 10
 d2l.train_ch6(net, train_iter, test_iter, num_epochs, lr, d2l.try_gpu())
 
-d2l.plt.savefig('../../Results/AlexNet.png')
+d2l.plt.savefig('../Results/AlexNet.png')
 # 记录程序结束时间
 end_time = time.time()
 # 计算并打印程序运行时间
